@@ -1,4 +1,4 @@
-# Deep anomaly detection
+# Deep Anomaly Detection
 
 ## Categoriztion of deep anomaly detection
 - Deep learning for feature extraction
@@ -34,12 +34,12 @@
   - [`Paper Link`](https://papers.nips.cc/paper/2014/hash/5ca3e9b122f61f8f06494c97b1afccf3-Abstract.html) | [`My Summary`](summary) | [`My Code`](Code)
   - `Key Word` : gan
 - Adversarial Autoencoders (2016)
-  - [`Paper Link`](https://arxiv.org/abs/1511.05644) | [`My Summary`](summary) | [`My Code`]
+  - [`Paper Link`](https://arxiv.org/abs/1511.05644) | [`My Summary`](summary) | `My Code`
   - `Key Word` : autoencoder, adversarial, semi-sup, dim reduction
 
 # Time Series and Streaming Anomaly Detection
 - prediction-based anomaly detection
-  - univariate case : [`My Code` ARIMA](./time%20series%20and%20streaming%20anomaly%20detection)
+  - univariate case : [`My Code` (ARIMA)](./time%20series%20and%20streaming%20anomaly%20detection)
   - multiple time series : [`My Code`](./time%20series%20and%20streaming%20anomaly%20detection)
     - selection method
     - pca method
