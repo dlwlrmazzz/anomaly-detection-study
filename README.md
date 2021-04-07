@@ -1,8 +1,20 @@
+# Outlier Analysis (2017) - Charu C. Aggarwal
+- Probabilistic and Statistical Models for Outlier Detection
+  - `My Summary` | `My Code`
+- Linear Models for Outlier Detection
+  - `My Summary` | `My Code`
+- Time Series and Streaming Outlier Detection
+  - prediction-based anomaly detection
+    - univariate case : [`My Code` (ARIMA)](./time%20series%20and%20streaming%20anomaly%20detection)
+    - multiple time series : [`My Code`](./time%20series%20and%20streaming%20anomaly%20detection)
+      - selection method
+      - pca method
+
 # Deep Anomaly Detection
 
 ## Categoriztion of deep anomaly detection
 - Deep learning for feature extraction
-- Learning feature represetations of normality
+- Learning feature representations of normality
   - Generic normality feature learning
     - autoencoder, gan, predictability modeling, self-supervised classification
   - Anomaly measure-dependent feature learning
@@ -36,10 +48,6 @@
 - Adversarial Autoencoders (2016)
   - [`Paper Link`](https://arxiv.org/abs/1511.05644) | [`My Summary`](summary) | `My Code`
   - `Key Word` : autoencoder, adversarial, semi-sup, dim reduction
-
-# Time Series and Streaming Anomaly Detection
-- prediction-based anomaly detection
-  - univariate case : [`My Code` (ARIMA)](./time%20series%20and%20streaming%20anomaly%20detection)
-  - multiple time series : [`My Code`](./time%20series%20and%20streaming%20anomaly%20detection)
-    - selection method
-    - pca method
+- Generative Probabilistic Novelty Detection with Adversarial Autoencoders (NIPS 2018)
+  - [`Paper Link`](https://papers.nips.cc/paper/2018/file/5421e013565f7f1afa0cfe8ad87a99ab-Paper.pdf) | [`My Summary`] | [`My Code`](code)
+  - `Key Word` : autoencoder, adversarial, novelty detecion
