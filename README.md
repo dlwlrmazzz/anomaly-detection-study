@@ -17,15 +17,15 @@
       - pca method
 
 # Deep Anomaly Detection
-## Categoriztion of deep anomaly detection
-- Deep learning for feature extraction
-- Learning feature representations of normality
-  - Generic normality feature learning
-    - autoencoder, gan, predictability modeling, self-supervised classification
-  - Anomaly measure-dependent feature learning
-    - distance-based classification, one-class classification measure, clustering-based measure
-- End-to-end anomaly score learning
-  - ranking model, prior-driven model, softmax likelihood model, end-to-end one-class classification
+- Categoriztion of deep anomaly detection
+  - Deep learning for feature extraction
+  - Learning feature representations of normality
+    - Generic normality feature learning
+      - autoencoder, gan, predictability modeling, self-supervised classification
+    - Anomaly measure-dependent feature learning
+      - distance-based classification, one-class classification measure, clustering-based measure
+  - End-to-end anomaly score learning
+    - ranking model, prior-driven model, softmax likelihood model, end-to-end one-class classification
 ### Survey
 - Deep Learning for Anomaly Detection A Review (2020)
   - [`Paper Link`](https://arxiv.org/pdf/2007.02500.pdf) | [`My Summary`](summary) | `My Code`
@@ -33,10 +33,8 @@
 - Autoencoders (2020)
   - [`Paper Link`](https://arxiv.org/pdf/2003.05991.pdf) | `My Summary` | `My Code`
   - `Key Word` : autoencoder
-- Anomaly Detection In Univariate Time-Series : A Survey on the state-of-the-art
-  - [`Paper Link`](https://arxiv.org/abs/2004.00433) | `My Summary` | `My Code`
-  - `Key Word` : anomaly detection, time series
-### Generic Normality Feature Learning
+
+### Learning feature representations of normality
 - Outlier Detection with AutoEncoder Ensemble (2017)
   - [`Paper Link`](https://saketsathe.net/downloads/autoencoder.pdf) | `My Summary` | `My Code`
   - `Key Word` : autoencoder, ensemble
@@ -50,10 +48,21 @@
   - [`Paper Link`](https://arxiv.org/abs/1511.05644) | [`My Summary`](summary) | `My Code`
   - `Key Word` : autoencoder, adversarial, semi-sup, dim reduction
 - Generative Probabilistic Novelty Detection with Adversarial Autoencoders (NIPS 2018)
-  - [`Paper Link`](https://papers.nips.cc/paper/2018/file/5421e013565f7f1afa0cfe8ad87a99ab-Paper.pdf) | [`My Summary`] | [`My Code`](code)
-  - `Key Word` : autoencoder, adversarial, novelty detecion
+  - [`Paper Link`](https://papers.nips.cc/paper/2018/file/5421e013565f7f1afa0cfe8ad87a99ab-Paper.pdf) | [`My Summary`] | [`My Code`]
+- dfd
+  - [`Paper Link`](https://sites.cs.ucsb.edu/~bzong/doc/iclr18-dagmm.pdf) | [`My Summary`] | [`My Code`]
 
-# Time Series and Streaming Outlier Detection
+# Time Series and Streaming Anomaly Detection
+- Anomaly Detection In Univariate Time-Series : A Survey on the state-of-the-art
+  - [`Paper Link`](https://arxiv.org/abs/2004.00433) | `My Summary` | `My Code`
+  - `Key Word` : anomaly detection, time series
 - USAD : UnSupervised Anomaly Detection on multivariate time series (KDD2020)
   - [`Paper Link`](https://dl.acm.org/doi/10.1145/3394486.3403392) | [`My Summary`] | [`My Code`]
   - `Key Word` : GAN, AE, multivariate time series
+
+# Project
+- Kaggle Credit Card Fraud Detection
+  - tabular, binary classification, imbalance
+  - 이론 적용
+    - SMOTE
+    - Unsupervised PCA based anomaly detection
