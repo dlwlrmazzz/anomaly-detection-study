@@ -71,6 +71,10 @@
   - 이론 실습 내용
     - `SMOTE`
     - `Unsupervised PCA based anomaly detection`
-- 다변량분석 수업 기말 프로젝트 (진행중)
+- 네트워크임베딩 대학원수업 기말 프로젝트 (진행중)
+  - Using Graph Embedding Ensemble in Unsupervised Anomaly Detection
+    - tabular, unsupervised
+    - `Node2Vec`
+- 다변량분석 대학원수업 기말 프로젝트 (진행중)
   - tabular, unsupervised
   - `PCA`, `Kernel PCA`
