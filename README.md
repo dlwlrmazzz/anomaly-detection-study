@@ -1,35 +1,45 @@
 # Outlier Analysis (2017) - Charu C. Aggarwal
-- Opinion
+- Info
   - 주로 Unsupervised learning의 상황에서 이상치를 탐지하는 알고리즘들에 대한 설명으로 이루어져있다.
   - 특정 task를 해결하기 위해 필요할 부분을 찾아보는 reference book으로 적절하다.
+  - 논문들을 많이 알려주고 있기 때문에 참고하면 좋을 것 같다.
 - Contents
-  - Probabilistic and Statistical Models for Outlier Detection
-    - `My Summary` | `My Code`
-  - Linear Models for Outlier Detection
-    - `My Summary` | `My Code`
-  - Proximity-Based Outlier Detection
-    - `My Summary` | `My Code`
-  - High-Dimensional Outlier Detection
-    - `My Summary` | `My Code`
-  - Outlier Ensembles
-    - `My Summary` | `My Code`
-  - Time Series and Streaming Outlier Detection
-    - prediction-based anomaly detection
-      - univariate case (ARIMA) : [`My Code`](./Outlier%20Analysis)
-      - multiple time series : [`My Code`](./Outlier%20Analysis)
+  - Chapter02 Probabilistic and Statistical Models for Outlier Detection
+  - Chapter03 Linear Models for Outlier Detection
+    - `Linear Regression`, `PCA`, `OCSVM`
+  - Chapter04 Proximity-Based Outlier Detection
+    - Distance-Based
+    - Density-Based(`LOF`, `LOCI`, `Histogram`, `Kernel Density`)
+  - Chapter05 High-Dimensional Outlier Detection
+    - Axis-Parallel subsapce
+    - Generalized subspace
+  - Chapter06 Outlier Ensembles
+    - Variance reduction
+    - Bias reduction
+  - Chapter07 Supervised Outlier Detection
+    - Cost-Sentitive(`MetaCost`, `Weighting Method`)
+    - Adaptive Re-sampling(`SMOTE`)
+    - Boosting
+    - Semi-Supervision
+    - Supervised Models for Unsupervised Outlier Detection
+  - Chapter09 Time Series and Streaming Outlier Detection
+    - Prediction-based Anomaly Detection
+      - Univariate aase (`ARIMA`) : [`My Code`](./Outlier%20Analysis)
+      - Multiple Time Series : [`My Code`](./Outlier%20Analysis)
         - selection method
         - pca method
 
-# Deep Anomaly Detection
-- Categoriztion of deep anomaly detection
-  - Deep learning for feature extraction
-  - Learning feature representations of normality
-    - Generic normality feature learning
-      - autoencoder, gan, predictability modeling, self-supervised classification
-    - Anomaly measure-dependent feature learning
-      - distance-based classification, one-class classification measure, clustering-based measure
-  - End-to-end anomaly score learning
-    - ranking model, prior-driven model, softmax likelihood model, end-to-end one-class classification
+# Paper
+### Categoriztion of Deep Anomaly Detection
+- Deep learning for feature extraction
+- Learning feature representations of normality
+  - Generic normality feature learning
+    - AutoEncoder, GAN, Predictability Modeling, Self-Supervised classification
+  - Anomaly measure-dependent feature learning
+    - Distance-based classification, One-class classification measure, Clustering-based measure
+- End-to-end anomaly score learning
+  - Ranking model, Prior-driven model, Softmax likelihood model, End-to-end one-class classification
+
 ### Survey
 - Deep Learning for Anomaly Detection A Review (2020)
   - [`Paper Link`](https://arxiv.org/pdf/2007.02500.pdf) | [`My Summary`](summary) | `My Code`
@@ -57,7 +67,7 @@
   - [`Paper Link`](https://sites.cs.ucsb.edu/~bzong/doc/iclr18-dagmm.pdf) | [`My Summary`](./My%20summary) | `My Code`
   - `Key Word` : Dim reduction using AE, GMM using NN, unsupervised
 
-# Time Series and Streaming Anomaly Detection
+### Time Series and Streaming Anomaly Detection
 - Anomaly Detection In Univariate Time-Series : A Survey on the state-of-the-art
   - [`Paper Link`](https://arxiv.org/abs/2004.00433) | `My Summary` | `My Code`
   - `Key Word` : anomaly detection, time series
@@ -70,7 +80,7 @@
   - tabular, binary classification, imbalance
   - 이론 실습 내용
     - `SMOTE`
-    - `Unsupervised PCA based anomaly detection`
+    - `Unsupervised PCA based Anomaly Detection`
 - 네트워크임베딩 대학원수업 기말 프로젝트 (진행중)
   - Using Graph Embedding Ensemble in Unsupervised Anomaly Detection
     - tabular, unsupervised
