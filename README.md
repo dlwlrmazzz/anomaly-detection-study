@@ -6,10 +6,10 @@
 - Contents
   - Chapter02 Probabilistic and Statistical Models for Outlier Detection
   - Chapter03 Linear Models for Outlier Detection
-    - `Linear Regression`, `PCA`, `OCSVM`
+    - Linear Regression, PCA, OCSVM
   - Chapter04 Proximity-Based Outlier Detection
     - Distance-Based
-    - Density-Based(`LOF`, `LOCI`, `Histogram`, `Kernel Density`)
+    - Density-Based (LOF, LOCI, Histogram, Kernel Density)
   - Chapter05 High-Dimensional Outlier Detection
     - Axis-Parallel subsapce
     - Generalized subspace
@@ -17,17 +17,18 @@
     - Variance reduction
     - Bias reduction
   - Chapter07 Supervised Outlier Detection
-    - Cost-Sentitive(`MetaCost`, `Weighting Method`)
-    - Adaptive Re-sampling(`SMOTE`)
+    - Cost-Sentitive (MetaCost, Weighting Method)
+    - Adaptive Re-sampling (SMOTE)
     - Boosting
     - Semi-Supervision
     - Supervised Models for Unsupervised Outlier Detection
+  - Chapter08 Outlier Detection in Categorical, Text, and Mixed Attributed Data
   - Chapter09 Time Series and Streaming Outlier Detection
     - Prediction-based Anomaly Detection
-      - Univariate aase (`ARIMA`) : [`My Code`](./Outlier%20Analysis)
+      - Univariate aase (ARIMA) : [`My Code`](./Outlier%20Analysis)
       - Multiple Time Series : [`My Code`](./Outlier%20Analysis)
         - selection method
-        - pca method
+        - PCA method
 
 # Paper
 ### Categoriztion of Deep Anomaly Detection
