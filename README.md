@@ -43,7 +43,7 @@
 
 ### Survey
 - Deep Learning for Anomaly Detection A Review (2020)
-  - [`Paper Link`](https://arxiv.org/pdf/2007.02500.pdf) | [`My Summary`](summary) | `My Code`
+  - [`Paper Link`](https://arxiv.org/pdf/2007.02500.pdf) | [`My Summary`](./My%20summary) | `My Code`
   - `Key Word` : deep anomaly detection
 - Autoencoders (2020)
   - [`Paper Link`](https://arxiv.org/pdf/2003.05991.pdf) | `My Summary` | `My Code`
@@ -54,10 +54,13 @@
   - [`Paper Link`](https://saketsathe.net/downloads/autoencoder.pdf) | `My Summary` | `My Code`
   - `Key Word` : autoencoder, ensemble
 - Auto-Encoding Variational Bayes (2014)
-  - [`Paper Link`](https://arxiv.org/abs/1312.6114) | `My Summary` | [`My Code`](code)
+  - [`Paper Link`](https://arxiv.org/abs/1312.6114) | [`My Summary`](./My%20summary) | [`My Code`]((./My%20code))
   - `Key Word` : variational autoencoder
 - Generatice Adversarial Nets (NIPS 2014)
-  - [`Paper Link`](https://papers.nips.cc/paper/2014/hash/5ca3e9b122f61f8f06494c97b1afccf3-Abstract.html) | [`My Summary`](./My%20summary) | [`My Code`](./My%20code)
+  - [`Paper Link`](https://papers.nips.cc/paper/2014/hash/5ca3e9b122f61f8f06494c97b1afccf3-Abstract.html) | [`My Summary`](https://minsoo9506.github.io/blog/GAN/) | [`My Code`](./My%20code) 
+  - `Key Word` : gan
+- Least Squares Generative Adversarial Networks (2016)
+  - [`Paper Link`](https://arxiv.org/abs/1611.04076) | [`My Summary`](https://minsoo9506.github.io/blog/LSGAN/) | [`My Code`](./My%20code) 
   - `Key Word` : gan
 - Adversarial Autoencoders (2016)
   - [`Paper Link`](https://arxiv.org/abs/1511.05644) | [`My Summary`](./My%20summary) | `My Code`
