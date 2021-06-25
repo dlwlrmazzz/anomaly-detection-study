@@ -70,9 +70,15 @@
   - [`Paper Link`](https://arxiv.org/abs/2004.00433) | `My Summary` | `My Code`
 - USAD : UnSupervised Anomaly Detection on multivariate time series (KDD2020)
   - [`Paper Link`](https://dl.acm.org/doi/10.1145/3394486.3403392) | [`My Summary`](./My%20summary) | `My Code`
+- Variational Attention for Sequence-to-Sequence Models (2017)
+  - [`Paper Link`](https://arxiv.org/abs/1712.08207) | `My Summary` | `My Code`
+- A Multimodal Anomaly Detector for Robot-Assisted Feeding Using an LSTM-based Variational Autoencoder (2017)
+  - [`Paper Link`](https://arxiv.org/abs/1711.00614) | `My Summary` | `My Code`
+- Outlier Detection for Time Series with Recurrent Autoencoder Ensembles (2019)
+  - [`Paper Link`](https://www.ijcai.org/proceedings/2019/0378.pdf) | `My Summary` | `My Code`
 
 # Project
-- Kaggle Credit Card Fraud Detection (진행중)
+- Kaggle Credit Card Fraud Detection
   - tabular, binary classification, imbalance
   - 이론을 실습해보자
     - `SMOTE`
