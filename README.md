@@ -51,9 +51,11 @@
 - Outlier Detection with AutoEncoder Ensemble (2017)
   - [`Paper Link`](https://saketsathe.net/downloads/autoencoder.pdf) | `My Summary` | `My Code`
 - Auto-Encoding Variational Bayes (2014)
-  - [`Paper Link`](https://arxiv.org/abs/1312.6114) | [`My Summary`](https://minsoo9506.github.io/blog/VAE/) | [`My Code`]((./My%20code))
+  - [`Paper Link`](https://arxiv.org/abs/1312.6114) | [`My Summary`](https://minsoo9506.github.io/blog/VAE/) | [`My Code`](./My%20code)
 - Deep Variational Information Bottleneck (ICLR 2017)
-- [`Paper Link`](https://arxiv.org/abs/1612.00410) | [`My Summary`](https://minsoo9506.github.io/blog/IB/) | `My Code`
+  - [`Paper Link`](https://arxiv.org/abs/1612.00410) | [`My Summary`](https://minsoo9506.github.io/blog/IB/) | `My Code`
+- Extracting and Composing Robust Features with Denoising Autoencoders (2008)
+  - [`Paper Link`](https://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf) | `My Summary` | `My Code`
 - Generatice Adversarial Nets (NIPS 2014)
   - [`Paper Link`](https://papers.nips.cc/paper/2014/hash/5ca3e9b122f61f8f06494c97b1afccf3-Abstract.html) | [`My Summary`](https://minsoo9506.github.io/blog/GAN/) | [`My Code`](./My%20code) 
 - Least Squares Generative Adversarial Networks (2016)
@@ -64,6 +66,9 @@
   - [`Paper Link`](https://papers.nips.cc/paper/2018/file/5421e013565f7f1afa0cfe8ad87a99ab-Paper.pdf) | `My Summary`| `My Code`
 - Deep Autoencoding Gaussian Mixture Model For Unsupervised Anomaly Detection (ICLR 2018)
   - [`Paper Link`](https://sites.cs.ucsb.edu/~bzong/doc/iclr18-dagmm.pdf) | [`My Summary`](./My%20summary) | `My Code`
+- Anomaly Detection with Robust Deep Autoencoders (KDD 2017)
+  - [`Paper Link`](https://www.eecs.yorku.ca/course_archive/2017-18/F/6412/reading/kdd17p665.pdf) | `My Summary` | `My Code`
+-
 
 ### Time Series and Streaming Anomaly Detection
 - Anomaly Detection In Univariate Time-Series : A Survey on the state-of-the-art
@@ -76,6 +81,14 @@
   - [`Paper Link`](https://arxiv.org/abs/1711.00614) | `My Summary` | `My Code`
 - Outlier Detection for Time Series with Recurrent Autoencoder Ensembles (2019)
   - [`Paper Link`](https://www.ijcai.org/proceedings/2019/0378.pdf) | `My Summary` | `My Code`
+- Robust Anomaly Detection for Multivariate time series through Stochastic Recurrent Neural Network (KKD 2019)
+  - [`Paper Link`](https://github.com/NetManAIOps/OmniAnomaly) | `My Summary` | `My Code`
+- Time Series Anomaly Detection with Multiresolution Ensemble Decoding (AAAI 2021)
+  - [`Paper Link`](https://ojs.aaai.org/index.php/AAAI/article/view/17152) | `My Summary` | `My Code`
+- An Improved Arima-Based Traffic Anomaly Detection Algorithm for Wireless Sensor Networks (2016)
+  - [`Paper Link`](https://journals.sagepub.com/doi/pdf/10.1155/2016/9653230) | `My Summary` | `My Code`
+- Time-Series Anomaly Detection Service at Microsoft (2019)
+  - [`Paper Link`](https://arxiv.org/abs/1906.03821) | `My Summary` | `My Code`
 
 # Project
 - Kaggle Credit Card Fraud Detection
